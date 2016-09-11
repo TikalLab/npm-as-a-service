@@ -41,7 +41,7 @@ router.get('/:package/:function', function(req, res, next) {
 	var ret = eval(renderedCode)
 	console.log('ret is %s',util.inspect(ret))
 
-	res.end()
+	res.json({ret: ret})
 })
 
 function capitalizeFirstLetter(string) {
