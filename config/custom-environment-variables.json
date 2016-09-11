@@ -1,0 +1,10 @@
+{
+	"slack": {
+		"user_token": "SLACK_USER_TOKEN",
+		"command_token": "SLACK_COMMAND_TOKEN",
+		"client_secret": "SLACK_CLIENT_SECRET"
+	},
+	"app": {
+		"cookie_secret": "APP_COOKIE_SECRET"
+	}
+}
